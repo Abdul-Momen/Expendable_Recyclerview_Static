@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/ic_arrow_down"
+        android:text="ami khola khabo"
+        android:textSize="29sp"
+        android:textColor="#9C27B0"
+        android:textStyle="bold" />
+
+    <View
+        android:background="#726F6F"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+        <LinearLayout
+            android:id="@+id/linerlayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image_id"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="addhifhaihh hsdhfha h"
+                android:id="@+id/chaid_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+           <TextView
+               android:textColor="#000"
+               android:gravity="center"
+               android:layout_gravity="center"
+               android:textSize="20sp"
+               android:text="addhifhaihh hsdhfha h"
+               android:id="@+id/chaid_text2"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
